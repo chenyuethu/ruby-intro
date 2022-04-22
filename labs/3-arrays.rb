@@ -12,6 +12,17 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
+brians_list = ["beer","bacon","tacos","milk"]
+bens_list = ["beer","beyond tacos","sticks"]
+
+shared_list = brians_list + bens_list
+
+sorted_list = shared_list.sort
+
+uniquee_list = sorted_list.uniq
+
+puts "buy #{uniquee_list[0]}"
+
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
