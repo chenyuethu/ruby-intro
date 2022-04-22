@@ -9,6 +9,16 @@
 # dice. Set two variables, with names that make sense,
 # then write them out to the screen. Show the total
 # as well.
+die1 = rand(1..6)
+die2 = rand(1..6)
+
+puts "The first die is  #{die1}"
+puts "The second die is  #{die2}"
+
+total = die1 + die2
+
+puts "The total is  #{total}"
+
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
